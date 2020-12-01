@@ -72,7 +72,7 @@ public class ManageServiceImpl implements ManageService {
         return  baseAttrInfoMapper.selectBaseAttrInfoList(category1Id,category2Id,category3Id);
     }
 
-    //baseAttrInfo(平台属性) baseAttrValue(平台属性值) ; 保存这两个数据
+    //baseAttrInfo(平台属性) baseAttrV alue(平台属性值) ; 保存这两个数据
     //在这个实现类中既有保存又有修改
     @Override
     @Transactional// 声明式事务

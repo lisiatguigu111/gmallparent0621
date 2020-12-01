@@ -45,7 +45,7 @@ public class BaseManageController {
 
     //根据分类id查询所有数据(平台属性)
     //http://api.gmall.com/admin/product/attrInfoList/{category1Id}/{category2Id}/{category3Id}
-    @PostMapping("attrInfoList/{category1Id}/{category2Id}/{category3Id}")
+    @GetMapping ("attrInfoList/{category1Id}/{category2Id}/{category3Id}")
     public Result attrInfoList(
                                @PathVariable("category1Id") long category1Id,
                                @PathVariable("category2Id") long category2Id,
